@@ -11,11 +11,11 @@ IMDB Dataset of 50K Movie Reviews (Kaggle): https://www.kaggle.com/datasets/laks
 - `sample_generations.txt` — generated text samples from the GPT-2 and Text-GAN variants
 
 ## Summary of Results
-| Model Variant | Primary Metric | Generative Quality Metric |
-|---|---|---|
-| BERT | F1 = 0.923 | N/A (classification task) |
-| GPT-2 | N/A (generative task) | BLEU = 0.0, ROUGE-1 = 0.207, Perplexity = 46.50 |
-| Text-GAN | Discriminator Accuracy ≈ 57–67% | BLEU = 0.0, ROUGE-1 = 0.129 |
+|| Model Variant | Primary Metric | Generative Quality Metric | Key Observations |
+|---|---|---|---|
+| BERT | F1 = 0.923 | N/A (classification task) | Slight bias toward positive predictions (recall > precision); low eval loss shows good generalization |
+| GPT-2 | N/A (generative task) | BLEU = 0.0, ROUGE-1 = 0.207, Perplexity = 46.50 | Fluent, coherent output; low BLEU/ROUGE reflects metric limits, not writing quality |
+| Text-GAN | Discriminator Accuracy ≈ 57-67% | BLEU = 0.0, ROUGE-1 = 0.129 | Stable adversarial balance; less coherent output than GPT-2 due to no pretraining and simpler vocabulary |
 
 Full metrics, interpretations, and discussion are in the notebook.
 
