@@ -1,0 +1,164 @@
+{
+  "bert": {
+    "training_history": [
+      {
+        "eval_loss": 0.3248230516910553,
+        "eval_accuracy": 0.8766666666666667,
+        "eval_precision": 0.8741721854304636,
+        "eval_recall": 0.88,
+        "eval_f1": 0.8770764119601329,
+        "eval_runtime": 4.8621,
+        "eval_samples_per_second": 61.701,
+        "eval_steps_per_second": 3.908,
+        "epoch": 1.0,
+        "step": 150
+      },
+      {
+        "eval_loss": 0.35004353523254395,
+        "eval_accuracy": 0.8933333333333333,
+        "eval_precision": 0.8831168831168831,
+        "eval_recall": 0.9066666666666666,
+        "eval_f1": 0.8947368421052632,
+        "eval_runtime": 4.953,
+        "eval_samples_per_second": 60.57,
+        "eval_steps_per_second": 3.836,
+        "epoch": 2.0,
+        "step": 300
+      },
+      {
+        "eval_loss": 0.40005701780319214,
+        "eval_accuracy": 0.89,
+        "eval_precision": 0.8926174496644296,
+        "eval_recall": 0.8866666666666667,
+        "eval_f1": 0.8896321070234113,
+        "eval_runtime": 4.9569,
+        "eval_samples_per_second": 60.522,
+        "eval_steps_per_second": 3.833,
+        "epoch": 3.0,
+        "step": 450
+      },
+      {
+        "train_runtime": 412.0018,
+        "train_samples_per_second": 17.476,
+        "train_steps_per_second": 1.092,
+        "total_flos": 947199799296000.0,
+        "train_loss": 0.24975297715928818,
+        "epoch": 3.0,
+        "step": 450
+      },
+      {
+        "eval_loss": 0.23722165822982788,
+        "eval_accuracy": 0.92,
+        "eval_precision": 0.8888888888888888,
+        "eval_recall": 0.96,
+        "eval_f1": 0.9230769230769231,
+        "eval_runtime": 4.618,
+        "eval_samples_per_second": 64.963,
+        "eval_steps_per_second": 4.114,
+        "epoch": 3.0,
+        "step": 450
+      }
+    ],
+    "test_metrics": {
+      "eval_loss": 0.23722165822982788,
+      "eval_accuracy": 0.92,
+      "eval_precision": 0.8888888888888888,
+      "eval_recall": 0.96,
+      "eval_f1": 0.9230769230769231
+    }
+  },
+  "gpt": {
+    "training_history": [
+      {
+        "eval_loss": 3.847517490386963,
+        "eval_runtime": 4.9218,
+        "eval_samples_per_second": 60.953,
+        "eval_steps_per_second": 7.721,
+        "epoch": 1.0,
+        "step": 300
+      },
+      {
+        "loss": 3.908822509765625,
+        "grad_norm": 3.3466644287109375,
+        "learning_rate": 2.2277777777777778e-05,
+        "epoch": 1.6666666666666665,
+        "step": 500
+      },
+      {
+        "eval_loss": 3.8394839763641357,
+        "eval_runtime": 4.9146,
+        "eval_samples_per_second": 61.043,
+        "eval_steps_per_second": 7.732,
+        "epoch": 2.0,
+        "step": 600
+      },
+      {
+        "eval_loss": 3.839419364929199,
+        "eval_runtime": 4.9285,
+        "eval_samples_per_second": 60.871,
+        "eval_steps_per_second": 7.71,
+        "epoch": 3.0,
+        "step": 900
+      },
+      {
+        "train_runtime": 403.4444,
+        "train_samples_per_second": 17.846,
+        "train_steps_per_second": 2.231,
+        "total_flos": 469717654044672.0,
+        "train_loss": 3.838070610894097,
+        "epoch": 3.0,
+        "step": 900
+      },
+      {
+        "eval_loss": 3.839419364929199,
+        "eval_runtime": 4.7605,
+        "eval_samples_per_second": 63.018,
+        "eval_steps_per_second": 7.982,
+        "epoch": 3.0,
+        "step": 900
+      }
+    ],
+    "perplexity": 46.498467958857546,
+    "bleu": {
+      "bleu": 0.0,
+      "precisions": [
+        0.24518613607188702,
+        0.01844532279314888,
+        0.0027063599458728013,
+        0.0
+      ],
+      "brevity_penalty": 0.7559001741062445,
+      "length_ratio": 0.7813440320962889,
+      "translation_length": 779,
+      "reference_length": 997
+    },
+    "rouge": {
+      "rouge1": 0.20734958747020532,
+      "rouge2": 0.016948641742445876,
+      "rougeL": 0.14020280184697897,
+      "rougeLsum": 0.14050811566910576
+    }
+  },
+  "gan": {
+    "bleu": {
+      "bleu": 0.0,
+      "precisions": [
+        0.18584070796460178,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "brevity_penalty": 0.29946665224334396,
+      "length_ratio": 0.45336008024072216,
+      "translation_length": 452,
+      "reference_length": 997
+    },
+    "rouge": {
+      "rouge1": 0.1290231894096571,
+      "rouge2": 0.001694915254237288,
+      "rougeL": 0.09216184518434693,
+      "rougeLsum": 0.09186154376700977
+    },
+    "avg_epoch_time_seconds": 0.09673013687133789
+  }
+}
