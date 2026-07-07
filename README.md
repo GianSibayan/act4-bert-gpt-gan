@@ -18,3 +18,5 @@ IMDB Dataset of 50K Movie Reviews (Kaggle): https://www.kaggle.com/datasets/laks
 | Text-GAN | Discriminator Accuracy ≈ 57–67% | BLEU = 0.0, ROUGE-1 = 0.129 |
 
 Full metrics, interpretations, and discussion are in the notebook.
+
+By: Gian Eugene Sibayan
